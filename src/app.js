@@ -1,3 +1,5 @@
+import { getResult } from "./func.js";
+
 let player1Choice = '';
 let player2Choice = '';
 let isPlayer1Turn = true;
@@ -18,18 +20,6 @@ function handleChoice() {
         player2Choice = choice;
         determineWinner();
     }
-}
-
-function getResult(choice1, choice2) {
-    /*
-        Cette fonction compare les choix du jeu Roche-Papier-ciseauxx entre deux
-        joueurs et affiche le gagnant.
-
-        :param choice1: symbole choisie par le joueur 1 ("roche", "papier" ou "ciseaux")
-        :param choice2: symbole choisie par le joueur 2 ("roche", "papier" ou "ciseaux")
-
-        :return: le joueur gagnant "Joueur 1 gagne !" ou "Joueur 2 gagne !" où "Égalité !"
-    */
 }
 
 function determineWinner() {
